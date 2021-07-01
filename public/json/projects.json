@@ -1,0 +1,53 @@
+[{
+    "name": "Project Silvanas",
+    "img": "https://res.cloudinary.com/deehzqwhq/image/upload/v1625048394/ProjectSilvanas_-_alescofet.github.io_yhqljf.png",
+    "url": "https://alescofet.github.io/ProjectSilvanas/",
+    "description": "Project Silvanas is a Mars-Invader-Like game ambiented in a fantasy world where you'll have to beat 3 rounds of enemies without getting killed. Good Luck!!",
+    "authors": [
+      {
+        "name": "Alex Escofet",
+        "github":"https://github.com/alescofet"
+        }
+      ]
+  },
+  {
+    "name": "Project Librarian",
+    "img": "https://res.cloudinary.com/deehzqwhq/image/upload/v1625048393/project-librarian.herokuapp.com_q25xmt.png",
+    "url": "https://project-librarian.herokuapp.com",
+    "description": "Project Librarian is a web application in which you can look for books (thanks to the Google Books API) and save them in your own profile to keep track of what books you've read and which ones you want to read next.",
+    "authors": [
+      {
+        "name": "Alex Escofet",
+        "github":"https://github.com/alescofet"
+        }
+      ]
+  },
+  {
+    "name": "Phobbie",
+    "img": "https://res.cloudinary.com/deehzqwhq/image/upload/v1625048393/phobbie_q3l6no.png",
+    "url": "https://phobbie.herokuapp.com",
+    "description": "Phobbie is a social web application in which you can look for people with the same hobbies as you and connect with them using our self-made live chat. For now, the app is only usable in smartphones but we're on the road to make it fully responsive.",
+    "authors": [
+      {
+        "name": "Alex Escofet",
+        "github":"https://github.com/alescofet"
+        }
+      ,
+      {
+        "name": "Pablo Cabrera",
+        "github":"https://github.com/PabloCabreraR"
+        }
+      ]
+  },
+  {
+    "name": "FreeGa",
+    "img": "https://res.cloudinary.com/deehzqwhq/image/upload/v1625048393/FreeGA_-_freega.herokuapp.com_zflyzn.png",
+    "url": "https://freega.herokuapp.com",
+    "description": "With FreeGa you'll be able to see all free games and dlc giveaways active now in the web thanks to the gamerpower API.",
+    "authors": [
+      {
+      "name": "Alex Escofet",
+      "github":"https://github.com/alescofet"
+        }
+      ]
+  }]

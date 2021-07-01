@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 70vw;
+  margin: 0 auto;
 }
 
 .main {
@@ -13,13 +15,18 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar{
+  display: none;
 }
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 5vh;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
@@ -53,7 +60,10 @@
 .title,
 .description {
   text-align: center;
+  
 }
+
+
 
 .description {
   line-height: 1.5;
@@ -118,4 +128,36 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.avatar{
+  margin: 0 auto;
+  margin-top: 10vh;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-image: url("../public/images/avatar.png");
+  background-size: contain;
+  border: solid 1px rgb(231, 231, 231);
+}
+.text{
+  text-align: justify;
+}
+.text p{
+  margin: 3vh 0;
+}
+
+.logo{
+background-image: url('../public/favicon.ico');
+width: 20vw;
+height: 20vw;
+background-size: cover;
+margin: 0 auto;
+}
+.head{
+  margin-top: 10vh;
+  min-height: 70vh;
+}
+.bio{
+  min-height: 90vh;
 }
