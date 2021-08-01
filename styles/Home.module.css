@@ -18,6 +18,8 @@
   justify-content: flex-start;
   align-items: center;
   overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 .main::-webkit-scrollbar{
@@ -157,7 +159,9 @@ margin: 0 auto;
 .head{
   margin-top: 10vh;
   min-height: 70vh;
+  scroll-snap-align: end;
 }
 .bio{
   min-height: 90vh;
+  scroll-snap-align: start;
 }

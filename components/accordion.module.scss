@@ -9,11 +9,16 @@ $a-height: 50vh;
 $text-offset: $a-height - 20;
 
 .accordion {
-
+  scroll-snap-align: start;
   width:100%;
   max-width:1080px;
   height:$a-height;
-  margin:50px auto;
+  margin:30vh auto;
+
+  h1{
+   text-align: center;
+   font-size: 4rem;
+  }
 
   ul {
 
@@ -167,7 +172,7 @@ $text-offset: $a-height - 20;
   .accordion {
     
     height:auto;
-    
+
     ul,ul:hover {
       
       li,li:hover {

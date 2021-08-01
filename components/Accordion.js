@@ -17,6 +17,7 @@ export default function Accordion() {
     })
     return (
       <div className={styles.accordion}>
+        <h1>My Projects</h1>
         <ul>
         {projects}
         </ul>
